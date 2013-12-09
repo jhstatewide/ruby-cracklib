@@ -25,7 +25,7 @@ module CrackLib
 
   extend FFI::Library
 
-  ffi_lib 'crack'
+  ffi_lib '/usr/lib/libcrack.so.2'
   attach_function :default_dict, :GetDefaultCracklibDict, [], :string
   attach_function :FascistCheck, [:string, :string], :string
 
