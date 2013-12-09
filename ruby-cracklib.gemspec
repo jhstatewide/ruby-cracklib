@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/jhstatewide/ruby-cracklib/"
   s.authors  = ["Joshua Harding"]
   s.email  = ["josh@statewidesoftware.com"]
+  s.add_dependency "ffi"
 end
